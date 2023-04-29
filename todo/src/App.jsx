@@ -24,7 +24,7 @@ const App = () => {
 
   useEffect(() => {
     getdata();
-  }, []);
+  },[]);
 
   const itemEvent = (event) => {
     setinputlist(event.target.value);

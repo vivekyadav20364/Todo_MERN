@@ -22,7 +22,7 @@ const Update = (props) => {
         UpdatedDate: updateDate,
       });
     props.setitem([...props.item]);
-     // console.log("RESPONSE" , response.data._id);
+    
 
     } 
     };

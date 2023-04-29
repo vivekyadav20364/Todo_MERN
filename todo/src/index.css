@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  height: 97vh;
  background-color: aquamarine;
  display: flex;
  flex-direction: row;
@@ -14,7 +14,7 @@
 .div-centre{
   
   width:37%;
-  height: 95vh;
+  height: 90vh;
   background-color: rgb(211, 217, 219);
   box-shadow: 5px 5px 25px -5px rgba(0 ,0 ,0 ,0.5);
   border-radius: 15px;
@@ -71,6 +71,7 @@ button:hover{
   margin-top:.1%;
   margin-left: 3%;
   text-align: center;
+  font-size: 90%;
   padding: 4px 0px 2px 0px;
   margin-bottom: 10px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
@@ -80,10 +81,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  justify-content:space-between;
  background-color: rgb(237, 235, 235);
  height:35px;
+ align-items: center;
 }
 .todo p{
  margin-right: 3%;
  font-size: 16px;
+ font-size: 90%;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -182,9 +185,10 @@ input:focus {
   }
 }
 
-@media (max-width:450px){
+@media (max-width:560px){
   .div-centre{
     width:90%;
-    height: 67vh;
+    height: 79vh;
+    margin-bottom: 16%;
   }
 }
