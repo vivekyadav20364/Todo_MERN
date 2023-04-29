@@ -21,7 +21,7 @@ const Update = (props) => {
         UpdatedDesp: updateDesp,
         UpdatedDate: updateDate,
       });
-    // props.setitem([...props.item]);
+    props.setitem([...props.item]);
      // console.log("RESPONSE" , response.data._id);
 
     } 
